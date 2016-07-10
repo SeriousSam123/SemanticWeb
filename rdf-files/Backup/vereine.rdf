@@ -1,0 +1,237 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:srau="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Verein"/>
+  <owl:ObjectProperty rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Bundesland">
+    <rdfs:comment xml:lang="DE">Zugehöriges Bundesland</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Verein"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:comment xml:lang="DE">Name des Vereins</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Verein"/>
+  </owl:DatatypeProperty>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Augsburg">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>FC Augsburg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Borussia Mönchengladbach</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Erzgebirge_Aue">
+    <srau:Bundesland>Sachsen</srau:Bundesland>
+    <rdfs:label>FC Erzgebirge Aue</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Stuttgarter_Kickers">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>Stuttgarter Kickers</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Hansa_Rostock">
+    <srau:Bundesland>Mecklenburg-Vorpommern</srau:Bundesland>
+    <rdfs:label>Hansa Rostock</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Dynamo_Dresden">
+    <srau:Bundesland>Sachsen</srau:Bundesland>
+    <rdfs:label>Dynamo Dresden</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Holstein_Kiel">
+    <srau:Bundesland>Schleswig-Holstein_Hamburg</srau:Bundesland>
+    <rdfs:label>Holstein Kiel</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_Heidenheim">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>1. FC Heidenheim</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/MSV_Duisburg">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>MSV Duisburg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Preu%C3%9Fen_M%C3%BCnster">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Preußen Münster</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Schalke_04">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>FC Schalke 04</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Hannover_96">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>Hannover 96</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfB_Stuttgart">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>VfB Stuttgart</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SV_Sandhausen">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>SV Sandhausen</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Chemnitzer_FC">
+    <srau:Bundesland>Sachsen</srau:Bundesland>
+    <rdfs:label>Chemnitzer FC</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/RB_Leipzig">
+    <srau:Bundesland>Sachsen</srau:Bundesland>
+    <rdfs:label>RB Leipzig</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SC_Paderborn_07">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>SC Paderborn 07</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FSV_Mainz_05">
+    <srau:Bundesland>Rheinland-Pfalz_Saarland</srau:Bundesland>
+    <rdfs:label>1. FSV Mainz 05</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FSV_Frankfurt">
+    <srau:Bundesland>Hessen</srau:Bundesland>
+    <rdfs:label>FSV Frankfurt</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Bayern_M%C3%BCnchen">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>FC Bayern München</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SG_Sonnenhof_Gro%C3%9Faspach">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>SG Sonnenhof Großaspach</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Eintracht_Braunschweig">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>Eintracht Braunschweig</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Hamburger_SV">
+    <srau:Bundesland>Schleswig-Holstein_Hamburg</srau:Bundesland>
+    <rdfs:label>Hamburger SV</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_K%C3%B6ln">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>1. FC Köln</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SC_Freiburg">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>SC Freiburg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Fortuna Düsseldorf</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SV_Darmstadt_98">
+    <srau:Bundesland>Hessen</srau:Bundesland>
+    <rdfs:label>SV Darmstadt 98</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_Kaiserslautern">
+    <srau:Bundesland>Rheinland-Pfalz_Saarland</srau:Bundesland>
+    <rdfs:label>1. FC Kaiserslautern</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Bayer_04_Leverkusen">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Bayer 04 Leverkusen</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Rot-Wei%C3%9F_Erfurt">
+    <srau:Bundesland>Thüringen</srau:Bundesland>
+    <rdfs:label>FC Rot-Weiß Erfurt</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/TSV_1860_M%C3%BCnchen">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>TSV 1860 München</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Hallescher_FC">
+    <srau:Bundesland>Sachsen-Anhalt</srau:Bundesland>
+    <rdfs:label>Hallescher FC</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfL_Osnabr%C3%BCck">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>VfL Osnabrück</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SC_Fortuna_K%C3%B6ln">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>SC Fortuna Köln</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/TSG_1899_Hoffenheim">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>TSG 1899 Hoffenheim</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Borussia_Dortmund">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Borussia Dortmund</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfL_Bochum">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>VfL Bochum</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfL_Wolfsburg">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>VfL Wolfsburg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Energie_Cottbus">
+    <srau:Bundesland>Berlin_Brandenburg</srau:Bundesland>
+    <rdfs:label>Energie Cottbus</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SV_Wehen_Wiesbaden">
+    <srau:Bundesland>Hessen</srau:Bundesland>
+    <rdfs:label>SV Wehen Wiesbaden</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_Union_Berlin">
+    <srau:Bundesland>Berlin_Brandenburg</srau:Bundesland>
+    <rdfs:label>1. FC Union Berlin</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/W%C3%BCrzburger_Kickers">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>Würzburger Kickers</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_Ingolstadt_04">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>FC Ingolstadt 04</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_N%C3%BCrnberg">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>1. FC Nürnberg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Karlsruher_SC">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>Karlsruher SC</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfR_Aalen">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>VfR Aalen</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Eintracht_Frankfurt">
+    <srau:Bundesland>Hessen</srau:Bundesland>
+    <rdfs:label>Eintracht Frankfurt</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Hertha_BSC">
+    <srau:Bundesland>Berlin_Brandenburg</srau:Bundesland>
+    <rdfs:label>Hertha BSC</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Arminia_Bielefeld">
+    <srau:Bundesland>Nordrhein-Westfalen</srau:Bundesland>
+    <rdfs:label>Arminia Bielefeld</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Werder_Bremen#Zweite_Mannschaft">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>SV Werder Bremen II</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/VfB_Stuttgart#Zweite_Mannschaft">
+    <srau:Bundesland>Baden-Württemberg</srau:Bundesland>
+    <rdfs:label>VfB Stuttgart II</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth">
+    <srau:Bundesland>Bayern</srau:Bundesland>
+    <rdfs:label>SpVgg Greuther Fürth</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/1._FC_Magdeburg">
+    <srau:Bundesland>Sachsen-Anhalt</srau:Bundesland>
+    <rdfs:label>1. FC Magdeburg</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/Werder_Bremen">
+    <srau:Bundesland>Niedersachsen_Bremen</srau:Bundesland>
+    <rdfs:label>Werder Bremen</rdfs:label>
+  </srau:Verein>
+  <srau:Verein rdf:about="http://de.wikipedia.org/wiki/FC_St._Pauli">
+    <srau:Bundesland>Schleswig-Holstein_Hamburg</srau:Bundesland>
+    <rdfs:label>FC St. Pauli</rdfs:label>
+  </srau:Verein>
+</rdf:RDF>

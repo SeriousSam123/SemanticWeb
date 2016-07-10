@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:srau="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Bundesland"/>
+  <owl:DatatypeProperty rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#bierabsatz">
+    <rdfs:comment xml:lang="DE">Bierabsatzmenge des Bundeslandes bzw. der Bundeslaender</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Bundesland"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name">
+    <rdfs:comment xml:lang="DE">Name des Bundeslandes bzw. der Bundeslaender</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Bundesland"/>
+  </owl:DatatypeProperty>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Bayern">
+    <srau:bierabsatz>19086956</srau:bierabsatz>
+    <gn:name>Bayern</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Baden-Württemberg">
+    <srau:bierabsatz>5121994</srau:bierabsatz>
+    <gn:name>Baden-Württemberg</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Berlin_Brandenburg">
+    <srau:bierabsatz>3159474</srau:bierabsatz>
+    <gn:name>Berlin_Brandenburg</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Mecklenburg-Vorpommern">
+    <srau:bierabsatz>2419483</srau:bierabsatz>
+    <gn:name>Mecklenburg-Vorpommern</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Niedersachsen_Bremen">
+    <srau:bierabsatz>6318886</srau:bierabsatz>
+    <gn:name>Niedersachsen_Bremen</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Rheinland-Pfalz_Saarland">
+    <srau:bierabsatz>6055538</srau:bierabsatz>
+    <gn:name>Rheinland-Pfalz_Saarland</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Nordrhein-Westfalen">
+    <srau:bierabsatz>17866869</srau:bierabsatz>
+    <gn:name>Nordrhein-Westfalen</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Schleswig-Holstein_Hamburg">
+    <srau:bierabsatz>3154267</srau:bierabsatz>
+    <gn:name>Schleswig-Holstein_Hamburg</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Hessen">
+    <srau:bierabsatz>2292146</srau:bierabsatz>
+    <gn:name>Hessen</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Sachsen">
+    <srau:bierabsatz>6916689</srau:bierabsatz>
+    <gn:name>Sachsen</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Thüringen">
+    <srau:bierabsatz>2622125</srau:bierabsatz>
+    <gn:name>Thüringen</gn:name>
+  </srau:Bundesland>
+  <srau:Bundesland rdf:about="http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#Sachsen-Anhalt">
+    <srau:bierabsatz>1837593</srau:bierabsatz>
+    <gn:name>Sachsen-Anhalt</gn:name>
+  </srau:Bundesland>
+</rdf:RDF>
