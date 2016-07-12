@@ -12,6 +12,7 @@ import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
@@ -72,7 +73,9 @@ public class VereineRDFMaker {
             // Properties hinzufügen
             i.addProperty(vereinNameProperty, verein.getName());
             i.addProperty(vereinOrtProperty, verein.getOrt());
-            i.addProperty(vereinBundeslandProperty, verein.getBundesland());
+            // Ressource für ObjectProperty erstellen
+            Resource bundesland = m.createResource(nameSpaceHTWK + verein.getBundesland());
+            i.addProperty(vereinBundeslandProperty, bundesland);
         }
         
         return m;       // OntModel zurückgeben
