@@ -1,0 +1,18 @@
+PREFIX srau: <http://www.imn.htwk-leipzig.de/~srau/semanticweb/ontologie#>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT  ?BundeslandName ?Bierabsatz (SUM(xsd:int(?zuschauer)) AS ?Zuschauerzahl)
+
+WHERE {
+  ?bundeslandRes a srau:Bundesland ;
+   		gn:name ?BundeslandName ;
+  		srau:bierabsatz ?Bierabsatz .
+  ?vereinRes srau:Bundesland ?bundeslandRes;
+        rdfs:label ?vereinName .
+  ?stadionRes srau:Verein ?vereinRes ;
+		srau:zuschauerzahl ?zuschauer .
+} 
+GROUP BY ?BundeslandName ?Bierabsatz
+ORDER BY ?BundeslandName
