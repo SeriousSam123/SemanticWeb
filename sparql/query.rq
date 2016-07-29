@@ -10,7 +10,7 @@ WHERE {
    		gn:name ?BundeslandName ;
   		srau:bierabsatz ?Bierabsatz .
   ?vereinRes srau:Bundesland ?bundeslandRes;
-        rdfs:label ?vereinName .
+        	rdfs:label ?vereinName .
   ?stadionRes srau:Verein ?vereinRes ;
 		srau:zuschauerzahl ?zuschauer .
 } 
